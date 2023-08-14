@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron:wght@500&display=swap');
+.navbar {
+  background-color: #007791;
+  margin: 0;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar ul li{
+  display: flex;
+  margin-left: 20px;
+  
+}
+
+.p1{
+  color: red;
+}
+.p2 {
+  color: blue;
+}
+.p3{
+  color: yellow;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container h2 {
+  color: floralwhite;
+  margin-left: 2%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: floralwhite;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+a:hover {
+  border-bottom: 3px solid white;
+}
+
+body {
+    background-color: dodgerblue;
+    font-family: 'Lato', sans-serif;
+}
+
+.box-container {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin: 50px;
+    color: floralwhite;
+  }
+    
+  .box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    background-color: #4C516D;
+    height: 130%;
+    border-radius: 5px;
+  }
+  
+  .box-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  img {
+    margin-top: 15px;
+    max-width: 93%;
+    height: auto;
+    border-radius: 5px;
+  }
+ 
+  .pic {
+    width:820px;
+    height:275px
+  }
+  
